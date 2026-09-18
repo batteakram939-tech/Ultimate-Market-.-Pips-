@@ -1,1 +1,236 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ultimate Market Pips</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #000000;
+            color: #ffffff;
+        }
+
+        header {
+            background: #000000;
+            padding: 20px;
+            border-bottom: 2px solid #6a0dad;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: #6a0dad;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+
+        nav a:hover {
+            color: #2196f3;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+            background: #000000;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: #6a0dad;
+        }
+
+        .hero p {
+            color: #ffffff;
+            font-size: 18px;
+            max-width: 600px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 14px 25px;
+            margin: 8px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .primary {
+            background: #6a0dad;
+            color: #ffffff;
+        }
+
+        .secondary {
+            background: #2196f3;
+            color: #ffffff;
+        }
+
+        .services {
+            padding: 60px 20px;
+            background: #ffffff;
+            color: #000000;
+            text-align: center;
+        }
+
+        .services h2 {
+            margin-bottom: 30px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .card {
+            background: #000000;
+            color: #ffffff;
+            padding: 30px 20px;
+            border-radius: 10px;
+            border: 2px solid #6a0dad;
+        }
+
+        .card h3 {
+            color: #6a0dad;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            line-height: 1.5;
+        }
+
+        .danger {
+            color: #ff0000;
+        }
+
+        footer {
+            background: #000000;
+            text-align: center;
+            padding: 25px;
+            border-top: 2px solid #6a0dad;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">ULTIMATE MARKET PIPS</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#">Login</a>
+    </nav>
+</header>
+
+<section class="hero">
+
+    <div>
+        <h1>
+            Trade Smarter With
+            <span>Ultimate Market Pips</span>
+        </h1>
+
+        <p>
+            Forex signals, automated trading tools, mentorship
+            and market analysis designed to help traders make
+            informed decisions.
+        </p>
+
+        <div class="buttons">
+            <a href="#services" class="btn primary">
+                Explore Services
+            </a>
+
+            <a href="#" class="btn secondary">
+                Join Now
+            </a>
+        </div>
+    </div>
+
+</section>
+
+<section class="services" id="services">
+
+    <h2>Our Services</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Forex Bot</h3>
+            <p>
+                Automated trading technology designed to
+                assist traders with their trading strategies.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Forex Signals</h3>
+            <p>
+                Receive trading ideas with entry, stop loss
+                and take profit information.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Mentorship</h3>
+            <p>
+                Learn forex trading through structured lessons,
+                guidance and practical education.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Market Analysis</h3>
+            <p>
+                Follow economic news, market events and
+                analytical scenarios.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Ultimate Market Pips</p>
+    <p class="danger">
+        Trading involves risk. No profit is guaranteed.
+    </p>
+</footer>
+
+</body>
+</html>
